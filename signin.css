@@ -1,0 +1,251 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Form Switch Buttons */
+  .form-switch {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-btn {
+    flex: 1;
+    background: #f4f4f4;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .form-btn.active {
+    background: #2575fc;
+    color: #fff;
+  }
+  
+  /* Forms */
+  .form {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form.active {
+    display: flex;
+  }
+  
+  form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2575fc;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+  }
+  
+  button {
+    padding: 12px;
+    border: none;
+    background: #2575fc;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background: #0056d2;
+  }
+  
+  button:active {
+    background: #003a99;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .form-btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    form h2 {
+      font-size: 20px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Form Switch Buttons */
+  .form-switch {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-btn {
+    flex: 1;
+    background: #f4f4f4;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .form-btn.active {
+    background: #2575fc;
+    color: #fff;
+  }
+  
+  /* Forms */
+  .form {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form.active {
+    display: flex;
+  }
+  
+  form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2575fc;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+  }
+  
+  button {
+    padding: 12px;
+    border: none;
+    background: #2575fc;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background: #0056d2;
+  }
+  
+  button:active {
+    background: #003a99;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .form-btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    form h2 {
+      font-size: 20px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+    

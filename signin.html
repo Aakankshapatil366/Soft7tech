@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Sign Up</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="form-switch">
+        <button id="login-btn" class="form-btn active">Login</button>
+        <button id="signup-btn" class="form-btn">Sign Up</button>
+      </div>
+
+      <!-- Login Form -->
+      <form id="login-form" class="form active" onsubmit="return handleLogin(event)">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+
+      <!-- Sign Up Form -->
+      <form id="signup-form" class="form" onsubmit="return handleSignup(event)">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-name" placeholder="Full Name" required>
+        <input type="email" id="signup-email" placeholder="Email" required>
+        <input type="password" id="signup-password" placeholder="Password" required>
+        <input type="tel" id="signup-phone" placeholder="Phone Number" required>
+        <input type="text" id="signup-address" placeholder="Address" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
